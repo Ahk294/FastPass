@@ -1,0 +1,55 @@
+.root {
+    -fx-background-color: #1c1c1c;
+}
+
+.text-field {
+    -fx-text-fill: #005eff;
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-border-color: #0047c2;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#005eff, #0047c2);
+    -fx-background-radius: 8;
+}
+
+.button:hover {
+    -fx-background-color: #1d59c2;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+}
+
+#savePassFields {
+    -fx-text-fill: #005eff;
+    -fx-font-size: 25;
+    -fx-font-weight: bold;
+    -fx-border-color: #0047c2;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+}
+
+#btnYes {
+    -fx-background-color: linear-gradient(#00d900, #00a300);
+}
+
+#btnYes:hover {
+    -fx-background-color: #3bbf3b;
+}
+
+#btnNo {
+    -fx-background-color: linear-gradient(#bd2020, #bf0000);
+}
+
+#btnNo:hover {
+    -fx-background-color: #b02e2e;
+}

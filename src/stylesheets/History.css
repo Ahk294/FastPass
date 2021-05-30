@@ -1,0 +1,78 @@
+.root{
+    -fx-background-color: #1c1c1c;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-size: 25;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#005eff, #0047c2);
+    -fx-background-radius: 8;
+}
+
+.button:hover {
+    -fx-background-color: #1d59c2;
+}
+
+.table-view{
+   -fx-background-color: transparent;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#005eff, #0047c2);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #1c1c1c;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #595959;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #005eff;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+#back {
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+#deletePass {
+    -fx-background-color: linear-gradient(#ff5e00, #c24700);
+}
+
+#deletePass:hover {
+    -fx-background-color: #c2591d;
+}
+
+#refresh {
+    -fx-font-weight: bold;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}

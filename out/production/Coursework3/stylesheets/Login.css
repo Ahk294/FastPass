@@ -1,0 +1,38 @@
+.root{
+    -fx-background-color: #1c1c1c;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-size: 25;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#005eff, #0047c2);
+    -fx-background-radius: 8;
+}
+
+.button:hover {
+    -fx-background-color: #1d59c2;
+}
+
+.text-field {
+    -fx-text-fill: #005eff;
+    -fx-font-size: 25;
+    -fx-font-weight: bold;
+    -fx-border-color: #0047c2;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+}
+
+.hyperlink {
+    -fx-font-size: 15;
+    -fx-text-fill: #005eff;
+}
+
+.hyperlink:hover {
+    -fx-text-fill: white;
+}
+
+#back {
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
+.root{
+    -fx-background-color: #1c1c1c;
+}
+
+.tooltip {
+    -fx-text-fill: #1c1c1c;
+    -fx-background-color: rgba(255, 255, 255, 0.7);
+    -fx-font-size: 15;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-size: 25;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#005eff, #0047c2);
+    -fx-background-radius: 8;
+}
+
+.button:hover {
+    -fx-background-color: #1d59c2;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 40;
+    -fx-font-family: 'Bebas Neue', cursive;
+}
+
+.text-field {
+    -fx-text-box-border: transparent;
+    -fx-text-fill: #005eff;
+    -fx-background-color: transparent;
+    -fx-font-family: 'Kiwi Maru', serif;
+    -fx-font-size: 50;
+}
+
+.slider .thumb {
+    -fx-padding: 12;
+}
+
+.slider .axis {
+    -fx-tick-label-fill: white;
+}
+
+.slider .track {
+    -fx-padding: 4;
+    -fx-background-color: #005eff;
+    -fx-control-inner-background: #0047c2;
+}
+
+.check-box {
+    -fx-font-size: 30;
+    -fx-text-fill: white;
+    -fx-font-family: 'Kiwi Maru', serif;
+}
+
+.check-box:hover .mark{
+    -fx-background-color: #1d59c2;
+}
+
+.check-box:selected .mark{
+    -fx-background-color: white;
+}
+
+.check-box:selected .box{
+    -fx-background-color: linear-gradient(#005eff, #0047c2);
+}
+
+.check-box .box{
+    -fx-background-radius: 10;
+}
+
+#logOut {
+    -fx-background-color: linear-gradient(#ff5e00, #c24700);
+}
+
+#logOut:hover {
+    -fx-background-color: #c2591d;
+}
+
+#deleteAc {
+    -fx-background-color: linear-gradient(#bd2020, #bf0000);
+    -fx-text-size: 5;
+}
+
+#deleteAc:hover {
+    -fx-background-color: #b02e2e;
+}
+
+#savePass {
+    -fx-background-color: linear-gradient(#00d900, #00a300);
+}
+
+#savePass:hover {
+    -fx-background-color: #3bbf3b;
+}
+
+#userPass {
+    -fx-font-size: 35;
+    -fx-font-family: 'IBM Plex Mono', monospace;
+}
+
+#userTxt {
+    -fx-text-box-border: transparent;
+    -fx-text-fill: #005eff;
+    -fx-background-color: transparent;
+    -fx-font-family: 'Kiwi Maru', serif;
+    -fx-font-size: 35;
+}
+
+#userLbls {
+    -fx-text-fill: white;
+    -fx-font-size: 30;
+    -fx-pref-width: 300;
+    -fx-font-family: 'Bebas Neue', cursive;
+}
+
+#userCheckbox {
+    -fx-font-size: 30;
+    -fx-text-fill: white;
+    -fx-font-family: 'Kiwi Maru', serif;
+}
+
+#userCheckbox:hover .mark{
+    -fx-background-color: #1d59c2;
+}
+
+#userCheckbox:selected .mark{
+    -fx-background-color: white;
+}
+
+#userCheckbox:selected .box{
+    -fx-background-color: linear-gradient(#005eff, #0047c2);
+}
+
+#userCheckbox .box{
+    -fx-background-radius: 10;
+}
+
+#nonUserPass {
+    -fx-font-size: 50;
+    -fx-font-family: 'IBM Plex Mono', monospace;
+}
